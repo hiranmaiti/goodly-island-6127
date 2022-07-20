@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#footer {
+    width: 90%;
+    margin: auto;
+}
+#box3 {
+    width: auto;
+    height: 100px;
+    background-color: #032c48;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#lebel {
+    color: white;
+}
+#box4 {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    background-color: #003953;
+}
+.hiru_box {
+    margin-top: 20px;
+    line-height: 27px;
+}
+.box {
+    line-height: 27px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.box > p:hover {
+    text-decoration-line: underline;
+}
+.hiru_box > p:hover {
+    text-decoration-line: underline;
+}
+#box3 > div {
+    margin-top: 10px;
+}
+#box3 > div > input {
+    width: 30%;
+    height: 10px;
+    outline: none;
+    padding: 1%;
+}
+#box3 > div > button {
+    width: 20%;
+    height: 40px;
+    text-align: center;
+    background-color: #032c48;
+    border-color: white;
+    border-radius: 10px;
+    color: white;
+}
+.hiru_box > div > button {
+    width: 70%;
+    padding: 10PX;
+    margin-top: 10px;
+    background-color: #144860;
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+}
+.hiru_box > div {
+    margin-left: 5px;
+    background-color: #144860;
+    padding: 10px;
+    border-radius: 10px;
+}
+#icon {
+    display: flex;
+    margin-left: 10px;
+}
+#icon > div {
+    padding: 2%;
+    margin: 10px;
+}
+#icon > div > a {
+    text-decoration: none;
+}
+#icon > div > a > i {
+    width: 20px;
+    color: black;
+}
+h3, p {
+    color: white;
+}
+
