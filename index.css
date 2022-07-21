@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#box_hiru {
+    width: 90%;
+    margin: auto;
+}
+#photo_hiru {
+    width: 100%;
+    margin: auto;
+}
+#photo_hiru > img {
+    width: 100%;
+}
+#populer_hiru {
+    width: 100%;
+}
+#populer1_hiru {
+    width: 100%;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 300px;
+}
+#populer1_hiru > div {
+    width: auto;
+    padding: 10px;
+    height: auto;
+    text-align: center;
+}
+#populer1_hiru > div > img {
+    width: 100px;
+    margin: auto;
+}
+#populer2_hiru {
+    width: 100%;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#populer2_hiru > div {
+    margin: 10px;
+    text-align: center;
+    list-style: 40px;
+}
+#populer2_hiru > div > img {
+    width: 100%;
+}
+#populer3_hiru {
+    width: 90%;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+#populer3_hiru > div {
+    margin: 10px;
+    padding: 10px;
+    line-height: 30px;
+}
+#populer3_hiru > div > img {
+    width: 100%;
+}
+#item {
+    width: 100%;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+#item > div {
+    margin: 10px;
+    padding: 10px;
+    line-height: 20px;
+}
+#item > div > img {
+    width: 100%;
+}
+h2 {
+    padding: 10px;
+}
+#item > div p:hover {
+    text-decoration-color: #00baf2;
+    text-decoration-line: underline;
+}
+#populer2_hiru > div > h4:hover {
+    text-decoration-line: underline;
+    text-decoration-color: #00baf2;
+}
+h4 {
+    color: #1f6699;
+}
+#populer1_hiru > div > p:hover {
+    text-decoration-line: underline;
+    text-decoration-color: #00baf2;
+}

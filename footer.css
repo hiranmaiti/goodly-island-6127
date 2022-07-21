@@ -3,7 +3,7 @@
     padding: 0;
 }
 #footer {
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 #box3 {
@@ -87,7 +87,28 @@
     width: 20px;
     color: black;
 }
-h3, p {
+.hiru_box > h3 {
+    color: white;
+}
+.box > h3 {
+    color: white;
+}
+#box3 > h3 {
+    color: white;
+}
+.hiru_box > p {
+    color: white;
+}
+.box > div > h3 {
+    color: white;
+}
+.hiru_box > div > h3 {
+    color: white;
+}
+.hiru_box > div > p {
+    color: white;
+}
+.box > p {
     color: white;
 }
 
