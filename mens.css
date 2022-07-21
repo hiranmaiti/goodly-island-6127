@@ -1,0 +1,87 @@
+#clothing {
+    width: 90%;
+    margin: auto;
+}
+#top {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 400px;
+}
+.top2{
+    height: 90%;
+}
+.top2 > img {
+    width: 180px;
+    padding: 10px;
+    margin: auto;
+}
+.top3 {
+    height: 10%;
+    text-align: center;
+}
+#medium {
+    width: 100%;
+}
+#medium > img {
+    width: 100%;
+}
+#medium0 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 480px;
+}
+.medium1 {
+    height: 400px;
+    padding: 10px;
+}
+.medium2 {
+    height: 90%;
+}
+.medium2 > img {
+    width: 300px;
+}
+.medium3 {
+    height: 100px;
+    line-height: 20px;
+}
+#lower {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 600px;
+}
+.lower2 {
+    height: 80%;
+}
+.lower2 > img {
+    width: 150px;
+}
+.lower3 {
+    height: 20%;
+    line-height: 20px;
+    color: #144860;
+}
+#img_hiru {
+    width: 380px;
+}
+.img_hiru1 {
+    width: 200px;
+}
+button {
+    color: white;
+    background-color: brown;
+    border-radius: 20px;
+    border: 0px;
+    width: 80px;
+    height: 30px;
+}
+.lower3 > p:hover {
+    text-decoration-line: underline;
+    color: #00baf2;
+}
+.medium3 > h4:hover {
+    text-decoration-line: underline;
+    color: #00baf2;
+}
