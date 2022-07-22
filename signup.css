@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#nav1 {
+    width: 100%;
+    height: 100px;
+}
+#nav1 > div {
+    width: 20%;
+    padding: 10px;
+}
+#nav1 > div > a > img {
+    width: 150px;
+    padding: 30px;
+}
+input {
+    display: block;
+}
+
+input[type="submit"]{
+    width: 100%;
+    background-color: #1f6699;
+    padding: 10px 10px;
+    border: none;
+    color:black;
+    font-size: 14px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+#nav2{
+    position: absolute;
+    width:400px;
+    padding: 10px 10px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    bottom: 200px;
+    right: 50px;
+}
+input[type="email"],
+input[type="password"],
+input[type="text"]
+{
+width: 100%;
+padding: 12px 5px;
+border: 1px solid #c5bac3;
+resize: vertical;
+margin-top: 15px;
+font-size: 18px;
+color: #c5bac3;
+}
+#signupfill{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+input:focus{
+    outline: none;
+}
+#nav3{
+    display: flex;
+    margin-left: 20px;
+}
+#head2{
+    margin-left: 20px;
+    border-bottom:2px solid #1f6699;
+    color: gray;
+}
+#head1{
+    border-bottom: 2px solid #1f6699;
+    color: gray;
+}
