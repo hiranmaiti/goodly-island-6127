@@ -46,23 +46,6 @@
     height: 100px;
     line-height: 20px;
 }
-#lower {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 600px;
-}
-.lower2 {
-    height: 80%;
-}
-.lower2 > img {
-    width: 150px;
-}
-.lower3 {
-    height: 20%;
-    line-height: 20px;
-    color: #144860;
-}
 #img_hiru {
     width: 380px;
 }
@@ -72,16 +55,37 @@
 button {
     color: white;
     background-color: brown;
-    border-radius: 20px;
+    border-radius: 4px;
+    padding: 12px 14px;
+    background-color: #035d59;
     border: 0px;
     width: 80px;
-    height: 30px;
+}
+button:hover {
+    background-color: #a7e688;
 }
 .lower3 > p:hover {
     text-decoration-line: underline;
     color: #00baf2;
 }
 .medium3 > h4:hover {
+    text-decoration-line: underline;
+    color: #00baf2;
+}
+#container_hiru {
+    width: 100%;
+    border: 1px solid teal;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat((4, 1fr));
+}
+#container_hiru > div {
+    border: 1px solid teal;
+    padding: 10px;
+    line-height: 20px;
+    margin: 10px;
+}
+#container_hiru > div > p:hover {
     text-decoration-line: underline;
     color: #00baf2;
 }
