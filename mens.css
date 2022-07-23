@@ -54,7 +54,6 @@
 }
 button {
     color: white;
-    background-color: brown;
     border-radius: 4px;
     padding: 12px 14px;
     background-color: #035d59;
@@ -74,18 +73,28 @@ button:hover {
 }
 #container_hiru {
     width: 100%;
-    border: 1px solid teal;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat((4, 1fr));
 }
 #container_hiru > div {
-    border: 1px solid teal;
     padding: 10px;
     line-height: 20px;
     margin: 10px;
 }
+#container_hiru > div:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
 #container_hiru > div > p:hover {
     text-decoration-line: underline;
     color: #00baf2;
+}
+#filter {
+    padding: 10px;
+    border: none;
+    color: #235780;
+}
+#filter:hover {
+    text-decoration: underline;
+    text-decoration-color: #235780;
 }

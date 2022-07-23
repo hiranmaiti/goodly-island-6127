@@ -110,7 +110,7 @@ let productData = [
       {
         brand: "Fundamental Coast",
         name: "Westport Print",
-        price: "110.00",
+        price: "111.00",
         size: "SM,MD,LG,XL,2XL",
         productID: "men13",
         catagory: "Shirts",
@@ -119,7 +119,7 @@ let productData = [
       {
         brand: "Fundamental Coast",
         name: "Westport Shorts",
-        price: "70.99",
+        price: "71.99",
         size: "30,31,32,33,34,35,36,38,40",
         productID: "men14",
         catagory: "Shorts",
@@ -146,6 +146,7 @@ let productData = [
 ]
 let productsCount=document.getElementById("container_hiru");
 let filter=document.getElementById("filter");
+let cartLS = JSON.parse(localStorage.getItem("cart-page"))||[];
 
 
 function displayProducts(productData){
@@ -166,6 +167,9 @@ function displayProducts(productData){
         
         let addToCart=document.createElement("button")
         addToCart.innerText="Add"
+        addToCart.addEventListener("click", function(){
+          AddToCart(el)
+        })
 
         product.append(img,name,catagory,price,addToCart);
         productsCount.append(product)
@@ -184,3 +188,16 @@ filter.addEventListener("change",function(){
         displayProducts(filtered);
     }
 })
+
+function AddToCart(product){
+  for ( let i = 0; i < cartLS.length; i++ ) {
+    if ( cartLS[i].productID === product.productID ) {
+      alert("Product already in the Cart");
+      return;
+    }
+  }
+  cartLS.push(product);
+  alert("Product Added Successfully");
+  //console.log(cartLS)
+  localStorage.setItem("cart-page", JSON.stringify(cartLS));
+}
