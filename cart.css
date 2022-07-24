@@ -60,3 +60,10 @@ button {
     margin-top: 10px;
     color: #676767;
 }
+#tatal_price > button > a {
+    text-decoration: none;
+    color: aliceblue;
+}
+#tatal_price > button {
+    background-color: #235780;
+}
